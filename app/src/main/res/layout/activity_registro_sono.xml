@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Fundo com imagem -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nanaregistrosono" />
+
+    <!-- Conteúdo -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/textTitleSono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrar Sono"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#8D6E63"
+            android:layout_marginBottom="24dp"
+            android:gravity="center" />
+
+        <!-- Hora de Início -->
+        <EditText
+            android:id="@+id/editTextInicio"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:hint="Início do sono"
+            android:focusable="false"
+            android:clickable="true"
+            android:background="@drawable/edittext_background"
+            android:textColor="#000000"
+            android:textColorHint="#88000000"
+            android:textSize="16sp"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="8dp"
+            android:layout_marginBottom="14dp" />
+
+        <!-- Hora de Fim -->
+        <EditText
+            android:id="@+id/editTextFim"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:hint="Fim do sono"
+            android:focusable="false"
+            android:clickable="true"
+            android:background="@drawable/edittext_background"
+            android:textColor="#000000"
+            android:textColorHint="#88000000"
+            android:textSize="16sp"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="8dp"
+            android:layout_marginBottom="22dp" />
+
+        <!-- Botão Registrar -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonRegistrarSono"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Registrar"
+            android:background="@drawable/button_background_login"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:stateListAnimator="@null" />
+    </LinearLayout>
+
+    <!-- Botão Voltar -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonVoltar"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:background="@drawable/button_background_login"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="16dp"
+        android:stateListAnimator="@null" />
+</FrameLayout>

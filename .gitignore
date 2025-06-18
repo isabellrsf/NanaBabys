@@ -1,0 +1,25 @@
+# Arquivos de Build
+/build
+/app/build
+
+# Arquivos locais de configuração (NUNCA envie isso!)
+local.properties
+
+# Arquivos do IDE (IntelliJ/Android Studio)
+.idea/
+*.iml
+.gradle
+/gradle
+/gradlew
+/gradlew.bat
+
+# Arquivos de log e temporários
+*.log
+*.temp
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Pasta de Capturas de Tela do Emulador
+/captures

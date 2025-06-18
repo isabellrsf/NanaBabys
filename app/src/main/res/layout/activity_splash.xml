@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nanalogin">
+
+    <!-- Conteúdo central -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <!-- Logo do app -->
+        <ImageView
+            android:id="@+id/imageLogo"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/nanababyicone"
+            android:contentDescription="Logo do App"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerInside"/>
+
+        <!-- Progress bar -->
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:visibility="visible"/>
+
+    </LinearLayout>
+</FrameLayout>

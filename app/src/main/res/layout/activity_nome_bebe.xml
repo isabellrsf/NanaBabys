@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Fundo -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nomebebe" />
+
+    <!-- Conteúdo central -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/textTitleNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qual é o nome do bebê?"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#8D6E63"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Campo para nome -->
+        <EditText
+            android:id="@+id/editTextNomeBebe"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:hint="Digite o nome"
+            android:inputType="textPersonName"
+            android:background="@drawable/edittext_background"
+            android:textColor="#000000"
+            android:textColorHint="#88000000"
+            android:textSize="15sp"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="8dp"
+            android:layout_marginBottom="32dp"/>
+
+        <!-- Botão Continuar -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonSalvarNome"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Continuar"
+            android:background="@drawable/button_background"
+            android:textColor="#FFFFFF"
+            android:stateListAnimator="@null"/>
+    </LinearLayout>
+
+    <!-- Botão Voltar no canto inferior esquerdo -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:background="@drawable/button_back_background"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="24dp"
+        android:stateListAnimator="@null"/>
+</FrameLayout>

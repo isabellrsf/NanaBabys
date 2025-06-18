@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "495953209753",
+    "project_id": "sleepbaby-cb585",
+    "storage_bucket": "sleepbaby-cb585.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495953209753:android:a629e332a2d9f4f79c4b08",
+        "android_client_info": {
+          "package_name": "com.isabella.sleepbaby"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495953209753-sl74p7oaap514djhv0n1a9rloohuves3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.isabella.sleepbaby",
+            "certificate_hash": "3f5591d622429bfae4723338f9806ca0e56e214d"
+          }
+        },
+        {
+          "client_id": "495953209753-s3u58tbr3t2o751sbvh8a74d51nqdk2i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcxm9T2Me4HVnMAy6bRRfECViSgc2PAQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495953209753-s3u58tbr3t2o751sbvh8a74d51nqdk2i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
